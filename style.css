@@ -193,4 +193,38 @@ body{
     transform: translateY(-50%);
 }
 
+@media (max-width:654px) {
+    body .container{
+        width: 95%;
+        padding: 40px 20px;
+    }
+
+    .container .inputs{
+        gap: 10px;
+    }
+
+    .container .inputs .field input {
+        width: 100%;
+    }
+
+    .container .button{
+        position: relative;
+        margin: 75px auto 50px auto;
+    }
+
+    .container .button > div{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .result span{
+        font-size: 2rem;
+    }
+
+    .detailes > div{
+        width: 90%;
+    }
+}
+
 
