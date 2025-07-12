@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <p class="clear">Clear</p>
+    <div class="inputs">
+      <div class="field day">
+        <label for="dayInput">Day</label>
+        <input type="text" placeholder="DD" id="dayInput" maxlength="2">
+        <p class="error hide">*This field is required</p>
+      </div>
+      <div class="field month">
+        <label for="monthInput">Month</label>
+        <input type="text" placeholder="MM" id="monthInput" maxlength="2">
+        <p class="error hide">*This field is required</p>
+      </div>
+      <div class="field year">
+        <label for="yearInput">Year</label>
+        <input type="text" placeholder="YYYY" id="yearInput" maxlength="4">
+        <p class="error hide">*This field is required</p>
+      </div>
+    </div>
+    <div class="button">
+      <span></span>
+      <div>
+        <img src="./assets/images/icon-arrow.svg" alt="">
+      </div>
+    </div>
+    <div class="result">
+      
+      <div class="year-result">
+        <span id="yRes">--</span>
+        <span>Years</span>
+      </div>
+      <div class="month-result">
+        <span id="mRes">--</span>
+        <span>Months</span>
+      </div>
+      <div class="day-result">
+        <span id="dRes">--</span>
+        <span>Days</span>
+      </div>
+    </div>
+    <div class="detailes">
+      <p>You Are Alive Since :</p>
+      <div>
+        <div><span id="months" class="age-unite">--</span>Months</div>
+        <div><span id="days" class="age-unite">--</span>Days</div>
+        <div><span id="hours" class="age-unite">--</span>Hours</div>
+        <div><span id="minutes" class="age-unite">--</span>Minutes</div>
+        <div><span id="seconds" class="age-unite">--</span>Second</div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
